@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cadastro_alunos.iml" filepath="$PROJECT_DIR$/.idea/cadastro_alunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cadastros/cadastros.iml" filepath="$PROJECT_DIR$/cadastros/cadastros.iml" />
+    </modules>
+  </component>
+</project>
