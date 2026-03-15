@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head}"></head>
+<body>
+<h1 class="title">Alunos Cadastrados</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Usuário</th>
+        <th>Email</th>
+        <th>Matrícula</th>
+        <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="aluno : ${alunos}">
+        <td th:text="${aluno.id}"></td>
+        <td th:text="${aluno.usuario}"></td>
+        <td th:text="${aluno.email}"></td>
+        <td th:text="${aluno.matricula}"></td>
+        <td>
+            <!-- Excluir -->
+            <form class = form-buttons th:action="@{/alunos/{id}/deletar(id=${aluno.id})}" method="post"
+                  onsubmit="return confirm('Tem certeza que deseja excluir este aluno?')">
+
+                <button class="btn-secondary" type="submit">Excluir</button>
+
+            <!-- Editar -->
+            <a class="a-btn-secondary" th:href="@{/alunos/{id}/editar(id=${aluno.id})}">Editar</a>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<a class="a-btn-primal" th:href="@{/}">Voltar para cadastro</a>
+</body>
+</html>

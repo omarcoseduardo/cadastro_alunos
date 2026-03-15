@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head}"></head>
+<body>
+<form class="form-primal" th:action="@{/alunos/{id}/editar(id=${aluno.id})}"
+      th:object="${aluno}"
+      method="post">
+
+    <label>Usuário</label>
+    <input type="text" th:field="*{usuario}" />
+    <span th:if="${#fields.hasErrors('usuario')}" th:errors="*{usuario}"></span>
+
+    <label>Matrícula</label>
+    <input type="number" th:field="*{matricula}" />
+    <span th:if="${#fields.hasErrors('matricula')}" th:errors="*{matricula}"></span>
+
+    <label>Email</label>
+    <input type="email" th:field="*{email}" />
+
+    <button class="btn-primal" type="submit">Salvar</button>
+</form>
+
+<a class="a-btn-primal" th:href="@{/alunos}">Voltar</a>
+</body>
+</html>

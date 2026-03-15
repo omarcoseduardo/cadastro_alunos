@@ -4,12 +4,10 @@ import com.aula_04.cadastros.model.Aluno;
 import com.aula_04.cadastros.service.AlunoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
 @RestController
 @RequestMapping("/aluno")
 public class AlunoController {
