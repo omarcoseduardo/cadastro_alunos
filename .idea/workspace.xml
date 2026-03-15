@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe0db8a-4c3a-4864-abdf-c09b860d6672" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cadastros/src/main/java/com/aula_04/cadastros/controller/AlunoViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastros/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastros/src/main/resources/templates/editar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastros/src/main/resources/templates/lista.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/banco.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastros/src/main/java/com/aula_04/cadastros/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastros/src/main/java/com/aula_04/cadastros/controller/AlunoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +120,7 @@
       <workItem from="1773435932082" duration="3650000" />
       <workItem from="1773441679732" duration="4262000" />
       <workItem from="1773448279196" duration="11109000" />
-      <workItem from="1773585753944" duration="12473000" />
+      <workItem from="1773585753944" duration="14329000" />
     </task>
     <servers />
   </component>
